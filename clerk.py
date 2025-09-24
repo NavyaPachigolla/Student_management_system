@@ -13,7 +13,7 @@ def to_float_safe(value):
     except Exception:
         return None
 
-def validate_student_row(row: dict) -> (bool, str):
+def validate_student_row(row: dict) -> (str):
     r = to_int_safe(row.get("Roll_No", ""))
     if r is None:
         return False, "Roll_No must be an integer"
