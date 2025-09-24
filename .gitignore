@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+students.csv
+students_deleted.csv
+import_errors.csv
+audit.log
