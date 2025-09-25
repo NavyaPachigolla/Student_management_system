@@ -75,4 +75,4 @@ def clerk_menu():
         if c == "1": add_student_interactive()
         elif c == "2": delete_student_interactive()
         elif c == "3": break
-        else: print("Invalid choice.")
+        else: print("Invalid entered")
