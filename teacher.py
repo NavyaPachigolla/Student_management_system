@@ -40,6 +40,7 @@ def search_student_interactive():
     if not matches: print("No results."); return
     for s in matches:
         print("-"*20)
+    
         for h in HEADERS:
             print(f"{h}: {s[h]}")
 
